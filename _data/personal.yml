@@ -1,0 +1,5 @@
+# Portrait filename in assets/img/; leave empty for the text placeholder.
+portrait: ""
+# Optional public links; empty values hide the links.
+email: ""
+scholar_url: ""
