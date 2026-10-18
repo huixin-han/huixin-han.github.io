@@ -1,5 +1,5 @@
 # Portrait filename in assets/img/; leave empty for the text placeholder.
-portrait: "portrait.jpg"
+portrait: "portrait.JPG"
 # Optional public links; empty values hide the links.
 email: "huixin.han@uga.edu"
 scholar_url: ""
