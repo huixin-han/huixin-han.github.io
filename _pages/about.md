@@ -21,7 +21,7 @@ latest_posts:
 <div class="personal-about">
   <aside class="personal-portrait" aria-label="Portrait and affiliation">
     {% if site.data.personal.portrait and site.data.personal.portrait != "" %}
-    <img class="personal-photo" src="{{ site.data.personal.portrait | prepend: '/assets/img/' | relative_url }}" alt="Portrait of Huixin Han" width="460" height="575">
+    <img class="personal-photo" src="{{ site.data.personal.portrait | prepend: '/assets/img/' | relative_url }}" alt="Portrait of Huixin Han" width="460" height="575" style="height: auto">
     {% else %}
     <div class="personal-photo personal-placeholder" role="img" aria-label="Portrait placeholder for Huixin Han"><span class="personal-monogram" aria-hidden="true">HH</span><small>Portrait to come</small></div>
     {% endif %}
