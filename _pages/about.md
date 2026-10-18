@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Third-year PhD student · University of Georgia
+subtitle: PhD student, University of Georgia
 profile: false
 selected_papers: false
 social: false
@@ -25,12 +25,11 @@ latest_posts:
     {% else %}
     <div class="personal-photo personal-placeholder" role="img" aria-label="Portrait placeholder for Huixin Han"><span class="personal-monogram" aria-hidden="true">HH</span><small>Portrait to come</small></div>
     {% endif %}
-    <p class="personal-affiliation">University of Georgia<br>PhD student · Year 3</p>
+    <p class="personal-affiliation">University of Georgia<br>PhD Candidate</p>
   </aside>
   <div class="personal-bio">
     <p class="personal-hello">I’m Huixin Han, a third-year PhD student at the University of Georgia, where I have the privilege of working with Dr. Elena Karahanna and Dr. Weifeng Li.</p>
-    <p>This is a home for my research, questions in progress, teaching, and service — alongside a little of life beyond academia.</p>
-    <p class="personal-about-note">You’ll find ongoing ideas in <a href="{{ '/explorations/' | relative_url }}">Explorations</a>, and walks, observations, and time closer to nature in <a href="{{ '/elsewhere/' | relative_url }}">Elsewhere</a>.</p>
+    <p>My research interest is </p>
     <div class="personal-links">
       {% if site.data.personal.email and site.data.personal.email != "" %}<a href="mailto:{{ site.data.personal.email }}">Email</a>{% endif %}
       {% if site.data.personal.scholar_url and site.data.personal.scholar_url != "" %}<a href="{{ site.data.personal.scholar_url }}">Google Scholar</a>{% endif %}
